@@ -1,4 +1,4 @@
-package com.my.common;
+package com.my.config;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
