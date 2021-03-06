@@ -1,5 +1,6 @@
 package com.my.config;
 
+import com.alibaba.fastjson.JSON;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -52,6 +53,6 @@ public class WebLogAspect {
     @AfterReturning(returning = "ret", pointcut = "webLog()")
     public void doAfterReturning(Object ret) {
         logger.info("耗时: {}毫秒",(System.currentTimeMillis() - startTime.get()));
-        logger.info("RESPONSE : " + ret);
+        logger.info("RESPONSE : " + JSON.toJSONString(ret));
     }
 }

@@ -14,7 +14,7 @@
         <typeAlias alias="hashMap" type="java.util.HashMap"/>
     </typeAliases>
     <mappers>
-        <!--<mapper resource="mybatis/DataUserRead.xml"/>-->
+        <mapper resource="mybatis/UserMapper.xml"/>
     </mappers>
 
 </configuration>

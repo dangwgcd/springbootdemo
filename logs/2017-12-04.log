@@ -448,3 +448,641 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'na
 2017-12-04 13:54:12.335 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/get_user?
 2017-12-04 13:54:12.338 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - 耗时: 3毫秒
 2017-12-04 13:54:12.339 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - RESPONSE : com.my.common.CommonJsonResult@2087033e
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 14:06:18.286 [main] INFO  com.my.SpringbootdemoApplicationTests - Starting SpringbootdemoApplicationTests on wt with PID 16112 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 14:06:18.287 [main] INFO  com.my.SpringbootdemoApplicationTests - The following profiles are active: dev
+2017-12-04 14:06:18.354 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2dc54ad4: startup date [Mon Dec 04 14:06:18 CST 2017]; root of context hierarchy
+2017-12-04 14:06:18.878 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 14:06:19.354 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 14:06:22.711 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2dc54ad4: startup date [Mon Dec 04 14:06:18 CST 2017]; root of context hierarchy
+2017-12-04 14:06:22.817 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 14:06:22.828 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 14:06:22.832 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 14:06:22.833 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 14:06:23.014 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:06:23.014 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:06:23.048 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 14:06:23.084 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:06:24.118 [main] INFO  com.my.SpringbootdemoApplicationTests - Started SpringbootdemoApplicationTests in 6.399 seconds (JVM running for 7.479)
+2017-12-04 14:06:24.253 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@2dc54ad4: startup date [Mon Dec 04 14:06:18 CST 2017]; root of context hierarchy
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 14:18:45.417 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 9260 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 14:18:45.420 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 14:18:45.506 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76b1e9b8: startup date [Mon Dec 04 14:18:45 CST 2017]; root of context hierarchy
+2017-12-04 14:18:46.091 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 14:18:46.677 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 14:18:48.035 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 14:18:48.048 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 14:18:48.049 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 14:18:48.182 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 14:18:48.182 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2676 ms
+2017-12-04 14:18:48.486 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 14:18:48.491 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 14:18:48.492 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 14:18:48.492 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 14:18:48.492 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 14:18:49.484 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76b1e9b8: startup date [Mon Dec 04 14:18:45 CST 2017]; root of context hierarchy
+2017-12-04 14:18:49.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 14:18:49.565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 14:18:49.569 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 14:18:49.569 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 14:18:49.618 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:18:49.619 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:18:49.644 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 14:18:49.675 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:18:50.162 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 14:18:50.163 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 14:18:50.170 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 14:18:50.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 14:18:50.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 14:18:50.214 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 14:18:50.235 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 14:18:50.240 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.399 seconds (JVM running for 6.92)
+2017-12-04 14:19:07.267 [http-nio-8888-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 14:19:07.268 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 14:19:07.303 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2017-12-04 14:19:07.327 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/get_user?
+2017-12-04 14:19:07.329 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - 耗时: 3毫秒
+2017-12-04 14:19:07.330 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - RESPONSE : com.my.common.CommonJsonResult@655723b0
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 14:26:31.759 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 16968 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 14:26:31.763 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 14:26:31.818 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 14:26:31 CST 2017]; root of context hierarchy
+2017-12-04 14:26:32.160 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 14:26:32.986 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 14:26:35.192 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 14:26:35.208 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 14:26:35.209 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 14:26:35.363 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 14:26:35.364 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3546 ms
+2017-12-04 14:26:35.698 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 14:26:35.705 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 14:26:35.706 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 14:26:35.706 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 14:26:35.706 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 14:26:36.760 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 14:26:31 CST 2017]; root of context hierarchy
+2017-12-04 14:26:36.834 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 14:26:36.837 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 14:26:36.840 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 14:26:36.841 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 14:26:36.889 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:26:36.889 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:26:36.913 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 14:26:36.946 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 14:26:37.586 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 14:26:37.587 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 14:26:37.595 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 14:26:37.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 14:26:37.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 14:26:37.644 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 14:26:37.670 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 14:26:37.676 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.579 seconds (JVM running for 7.723)
+2017-12-04 14:26:41.177 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 14:26:41.177 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 14:26:41.243 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 66 ms
+2017-12-04 14:26:41.275 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/get_user?
+2017-12-04 14:26:41.278 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - 耗时: 3毫秒
+2017-12-04 14:26:41.390 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1","userProperties":{"age":16,"content":"name:ld,age:16","name":"ld"},"user":{"age":16,"content":"name:ld,age:16","name":"ld"}},"resultList":[]}
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:11:14.291 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 17560 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:11:14.295 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:11:14.379 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:11:14 CST 2017]; root of context hierarchy
+2017-12-04 15:11:14.683 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:11:15.687 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:11:17.897 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:11:17.910 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:11:17.911 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:11:18.024 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:11:18.025 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3646 ms
+2017-12-04 15:11:18.317 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:11:18.321 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:11:18.322 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:11:18.322 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:11:18.322 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:11:19.337 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:11:14 CST 2017]; root of context hierarchy
+2017-12-04 15:11:19.408 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:11:19.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:11:19.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:11:19.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:11:19.416 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:11:19.416 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:11:19.462 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:11:19.462 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:11:19.487 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:11:19.515 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:11:19.968 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:11:19.969 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:11:19.969 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:11:19.974 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:11:19.976 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:11:19.988 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:11:19.998 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:11:20.011 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:11:20.031 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:11:20.036 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.331 seconds (JVM running for 6.88)
+2017-12-04 15:11:38.234 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 15:11:38.234 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 15:11:38.285 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2017-12-04 15:11:38.320 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/users?
+2017-12-04 15:11:38.821 [http-nio-8888-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:11:38.848 [http-nio-8888-exec-1] ERROR com.my.config.ExceptionHandle - 【系统异常】{}
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at com.my.config.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:203)
+	at com.sun.proxy.$Proxy70.selectList(Unknown Source)
+	at com.my.config.BaseDao.selectList(BaseDao.java:81)
+	at com.my.service.impl.UserServiceImpl.getUsers(UserServiceImpl.java:24)
+	at com.my.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$cf8d23ea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.my.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$16a89314.getUsers(<generated>)
+	at com.my.controller.UserController.users(UserController.java:50)
+	at com.my.controller.UserController$$FastClassBySpringCGLIB$$df732604.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.my.controller.UserController$$EnhancerBySpringCGLIB$$54956f82.users(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.my.config.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:194)
+	... 80 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 87 common frames omitted
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:12:05.997 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 17484 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:12:06.000 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:12:06.044 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:12:06 CST 2017]; root of context hierarchy
+2017-12-04 15:12:06.244 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:12:06.952 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:12:08.341 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:12:08.353 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:12:08.354 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:12:08.477 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:12:08.478 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2433 ms
+2017-12-04 15:12:08.736 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:12:08.740 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:12:08.741 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:12:08.741 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:12:08.742 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:12:09.766 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:12:06 CST 2017]; root of context hierarchy
+2017-12-04 15:12:09.845 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:12:09.849 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:12:09.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:12:09.851 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:12:09.853 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:12:09.854 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:12:09.911 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:12:09.911 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:12:09.939 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:12:09.973 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:12:10.466 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:12:10.468 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:12:10.468 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:12:10.474 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:12:10.476 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:12:10.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:12:10.501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:12:10.521 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:12:10.542 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:12:10.549 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.003 seconds (JVM running for 5.534)
+2017-12-04 15:12:15.247 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 15:12:15.247 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 15:12:15.287 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2017-12-04 15:12:15.311 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/users?
+2017-12-04 15:12:15.826 [http-nio-8888-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:12:15.972 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - 耗时: 662毫秒
+2017-12-04 15:12:16.052 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":13},{"id":14},{"id":19},{"id":20},{"id":21},{"id":23},{"id":25},{"id":26},{"id":27},{"id":28},{"id":29},{"id":30},{"id":31},{"id":32},{"id":33},{"id":34},{"id":35},{"id":36},{"id":37},{"id":38},{"id":39},{"id":40},{"id":41},{"id":42},{"id":43},{"id":44},{"id":45},{"id":46},{"id":47},{"id":48},{"id":49},{"id":50},{"id":51},{"id":52},{"id":53},{"id":54},{"id":55},{"id":56},{"id":57},{"id":58},{"id":59},{"id":60},{"id":61},{"id":62},{"id":63},{"id":64},{"id":65},{"id":66},{"id":67},{"id":68},{"id":69},{"id":70},{"id":71},{"id":72},{"id":73},{"id":74},{"id":75},{"id":76},{"id":77},{"id":78},{"id":79},{"id":80},{"id":81},{"id":82},{"id":83},{"id":84},{"id":85},{"id":86},{"id":87},{"id":88},{"id":89},{"id":90},{"id":91},{"id":92},{"id":93},{"id":94},{"id":95},{"id":96},{"id":97},{"id":98},{"id":99},{"id":100},{"id":101},{"id":102},{"id":103},{"id":104},{"id":105},{"id":106},{"id":107},{"id":108},{"id":109},{"id":110},{"id":111},{"id":112}]}
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:14:23.953 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 4948 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:14:23.955 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:14:24.003 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:14:24 CST 2017]; root of context hierarchy
+2017-12-04 15:14:24.223 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:14:24.833 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:14:26.369 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:14:26.383 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:14:26.384 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:14:26.516 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:14:26.516 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2514 ms
+2017-12-04 15:14:26.787 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:14:26.792 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:14:26.793 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:14:26.793 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:14:26.793 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:14:27.780 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2af004b: startup date [Mon Dec 04 15:14:24 CST 2017]; root of context hierarchy
+2017-12-04 15:14:27.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:14:27.852 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:14:27.854 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:14:27.854 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:14:27.858 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:14:27.858 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:14:27.906 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:14:27.906 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:14:27.929 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:14:27.958 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:14:28.486 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:14:28.488 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:14:28.488 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:14:28.495 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:14:28.500 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:14:28.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:14:28.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:14:28.555 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:14:28.588 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:14:28.596 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.092 seconds (JVM running for 5.611)
+2017-12-04 15:14:34.438 [http-nio-8888-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 15:14:34.438 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 15:14:34.477 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-12-04 15:14:34.499 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/users?
+2017-12-04 15:14:34.935 [http-nio-8888-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:14:35.054 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - 耗时: 555毫秒
+2017-12-04 15:14:35.126 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605"},{"id":5,"mobile":"13810315896"},{"id":6,"mobile":"15861684221"},{"id":7,"mobile":"13817335978"},{"id":8,"mobile":"18800582663"},{"id":9,"mobile":"13764915407"},{"id":13,"mobile":"13681468168"},{"id":14,"mobile":"13671918809"},{"id":19,"mobile":"13862142750"},{"id":20,"mobile":"13606216246"},{"id":21,"mobile":"13811738925"},{"id":23,"mobile":"13818105740"},{"id":25,"mobile":"18910540579"},{"id":26,"mobile":"18612320083"},{"id":27,"mobile":"15210306774"},{"id":28,"mobile":"13001000491"},{"id":29,"mobile":"13001000926"},{"id":30,"mobile":"13001003126"},{"id":31,"mobile":"13001006352"},{"id":32,"mobile":"13001007743"},{"id":33,"mobile":"13001009683"},{"id":34,"mobile":"13001012730"},{"id":35,"mobile":"13001018030"},{"id":36,"mobile":"13001018260"},{"id":37,"mobile":"13001021268"},{"id":38,"mobile":"13001022534"},{"id":39,"mobile":"13001026413"},{"id":40,"mobile":"13001026983"},{"id":41,"mobile":"13001033388"},{"id":42,"mobile":"13001034701"},{"id":43,"mobile":"13001034956"},{"id":44,"mobile":"13001041636"},{"id":45,"mobile":"13001042261"},{"id":46,"mobile":"13001049978"},{"id":47,"mobile":"13001063555"},{"id":48,"mobile":"13001069371"},{"id":49,"mobile":"13001071328"},{"id":50,"mobile":"13001071779"},{"id":51,"mobile":"13001072757"},{"id":52,"mobile":"13001073371"},{"id":53,"mobile":"13001077790"},{"id":54,"mobile":"13001078359"},{"id":55,"mobile":"13001079855"},{"id":56,"mobile":"13001083682"},{"id":57,"mobile":"13001084289"},{"id":58,"mobile":"13001084695"},{"id":59,"mobile":"13001085979"},{"id":60,"mobile":"13001087112"},{"id":61,"mobile":"13001088485"},{"id":62,"mobile":"13001088676"},{"id":63,"mobile":"13001089075"},{"id":64,"mobile":"13001092122"},{"id":65,"mobile":"13001093807"},{"id":66,"mobile":"13001095304"},{"id":67,"mobile":"13001096680"},{"id":68,"mobile":"13001096916"},{"id":69,"mobile":"13001096960"},{"id":70,"mobile":"13001098626"},{"id":71,"mobile":"13001098788"},{"id":72,"mobile":"13001099316"},{"id":73,"mobile":"13001109557"},{"id":74,"mobile":"13001109799"},{"id":75,"mobile":"13001115777"},{"id":76,"mobile":"13001120965"},{"id":77,"mobile":"13001126395"},{"id":78,"mobile":"13001126502"},{"id":79,"mobile":"13001131729"},{"id":80,"mobile":"13001136191"},{"id":81,"mobile":"13001136699"},{"id":82,"mobile":"13001137568"},{"id":83,"mobile":"13001143258"},{"id":84,"mobile":"13001145001"},{"id":85,"mobile":"13001149878"},{"id":86,"mobile":"13001151766"},{"id":87,"mobile":"13001152580"},{"id":88,"mobile":"13001154822"},{"id":89,"mobile":"13001156893"},{"id":90,"mobile":"13001157299"},{"id":91,"mobile":"13001162330"},{"id":92,"mobile":"13001165557"},{"id":93,"mobile":"13001167269"},{"id":94,"mobile":"13001167898"},{"id":95,"mobile":"13001169880"},{"id":96,"mobile":"13001170929"},{"id":97,"mobile":"13001177624"},{"id":98,"mobile":"13001179479"},{"id":99,"mobile":"13001181227"},{"id":100,"mobile":"13001182204"},{"id":101,"mobile":"13001185078"},{"id":102,"mobile":"13001185272"},{"id":103,"mobile":"13001185575"},{"id":104,"mobile":"13001185807"},{"id":105,"mobile":"13001186595"},{"id":106,"mobile":"13001186900"},{"id":107,"mobile":"13001187436"},{"id":108,"mobile":"13001189515"},{"id":109,"mobile":"13001192151"},{"id":110,"mobile":"13001195381"},{"id":111,"mobile":"13001196681"},{"id":112,"mobile":"13001196730"}]}
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:15:02.569 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 17756 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:15:02.572 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:15:02.623 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d0b7e3c: startup date [Mon Dec 04 15:15:02 CST 2017]; root of context hierarchy
+2017-12-04 15:15:02.858 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:15:03.583 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:15:05.192 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:15:05.205 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:15:05.206 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:15:05.317 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:15:05.317 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2694 ms
+2017-12-04 15:15:05.585 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:15:05.589 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:15:05.590 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:15:05.591 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:15:05.591 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:15:06.710 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d0b7e3c: startup date [Mon Dec 04 15:15:02 CST 2017]; root of context hierarchy
+2017-12-04 15:15:06.802 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:15:06.805 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:15:06.808 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:15:06.809 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:15:06.814 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:15:06.814 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:15:06.866 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:06.866 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:06.890 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:15:06.925 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:07.431 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:15:07.433 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:15:07.433 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:15:07.440 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:15:07.448 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:15:07.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:15:07.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:15:07.507 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:15:07.526 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:15:07.530 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.421 seconds (JVM running for 5.956)
+2017-12-04 15:15:13.441 [http-nio-8888-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 15:15:13.442 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 15:15:13.481 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-12-04 15:15:13.507 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/users?
+2017-12-04 15:15:13.910 [http-nio-8888-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:15:14.030 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - 耗时: 523毫秒
+2017-12-04 15:15:14.102 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605"},{"id":5,"mobile":"13810315896"},{"id":6,"mobile":"15861684221"},{"id":7,"mobile":"13817335978"},{"id":8,"mobile":"18800582663"},{"id":9,"mobile":"13764915407"},{"id":13,"mobile":"13681468168"},{"id":14,"mobile":"13671918809"},{"id":19,"mobile":"13862142750"},{"id":20,"mobile":"13606216246"},{"id":21,"mobile":"13811738925"},{"id":23,"mobile":"13818105740"},{"id":25,"mobile":"18910540579"},{"id":26,"mobile":"18612320083"},{"id":27,"mobile":"15210306774"},{"id":28,"mobile":"13001000491"},{"id":29,"mobile":"13001000926"},{"id":30,"mobile":"13001003126"},{"id":31,"mobile":"13001006352"},{"id":32,"mobile":"13001007743"},{"id":33,"mobile":"13001009683"},{"id":34,"mobile":"13001012730"},{"id":35,"mobile":"13001018030"},{"id":36,"mobile":"13001018260"},{"id":37,"mobile":"13001021268"},{"id":38,"mobile":"13001022534"},{"id":39,"mobile":"13001026413"},{"id":40,"mobile":"13001026983"},{"id":41,"mobile":"13001033388"},{"id":42,"mobile":"13001034701"},{"id":43,"mobile":"13001034956"},{"id":44,"mobile":"13001041636"},{"id":45,"mobile":"13001042261"},{"id":46,"mobile":"13001049978"},{"id":47,"mobile":"13001063555"},{"id":48,"mobile":"13001069371"},{"id":49,"mobile":"13001071328"},{"id":50,"mobile":"13001071779"},{"id":51,"mobile":"13001072757"},{"id":52,"mobile":"13001073371"},{"id":53,"mobile":"13001077790"},{"id":54,"mobile":"13001078359"},{"id":55,"mobile":"13001079855"},{"id":56,"mobile":"13001083682"},{"id":57,"mobile":"13001084289"},{"id":58,"mobile":"13001084695"},{"id":59,"mobile":"13001085979"},{"id":60,"mobile":"13001087112"},{"id":61,"mobile":"13001088485"},{"id":62,"mobile":"13001088676"},{"id":63,"mobile":"13001089075"},{"id":64,"mobile":"13001092122"},{"id":65,"mobile":"13001093807"},{"id":66,"mobile":"13001095304"},{"id":67,"mobile":"13001096680"},{"id":68,"mobile":"13001096916"},{"id":69,"mobile":"13001096960"},{"id":70,"mobile":"13001098626"},{"id":71,"mobile":"13001098788"},{"id":72,"mobile":"13001099316"},{"id":73,"mobile":"13001109557"},{"id":74,"mobile":"13001109799"},{"id":75,"mobile":"13001115777"},{"id":76,"mobile":"13001120965"},{"id":77,"mobile":"13001126395"},{"id":78,"mobile":"13001126502"},{"id":79,"mobile":"13001131729"},{"id":80,"mobile":"13001136191"},{"id":81,"mobile":"13001136699"},{"id":82,"mobile":"13001137568"},{"id":83,"mobile":"13001143258"},{"id":84,"mobile":"13001145001"},{"id":85,"mobile":"13001149878"},{"id":86,"mobile":"13001151766"},{"id":87,"mobile":"13001152580"},{"id":88,"mobile":"13001154822"},{"id":89,"mobile":"13001156893"},{"id":90,"mobile":"13001157299"},{"id":91,"mobile":"13001162330"},{"id":92,"mobile":"13001165557"},{"id":93,"mobile":"13001167269"},{"id":94,"mobile":"13001167898"},{"id":95,"mobile":"13001169880"},{"id":96,"mobile":"13001170929"},{"id":97,"mobile":"13001177624"},{"id":98,"mobile":"13001179479"},{"id":99,"mobile":"13001181227"},{"id":100,"mobile":"13001182204"},{"id":101,"mobile":"13001185078"},{"id":102,"mobile":"13001185272"},{"id":103,"mobile":"13001185575"},{"id":104,"mobile":"13001185807"},{"id":105,"mobile":"13001186595"},{"id":106,"mobile":"13001186900"},{"id":107,"mobile":"13001187436"},{"id":108,"mobile":"13001189515"},{"id":109,"mobile":"13001192151"},{"id":110,"mobile":"13001195381"},{"id":111,"mobile":"13001196681"},{"id":112,"mobile":"13001196730"}]}
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:15:40.577 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 17180 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:15:40.580 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:15:40.629 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79207381: startup date [Mon Dec 04 15:15:40 CST 2017]; root of context hierarchy
+2017-12-04 15:15:40.843 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:15:41.439 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:15:43.076 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:15:43.089 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:15:43.090 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:15:43.226 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:15:43.227 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2598 ms
+2017-12-04 15:15:43.481 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:15:43.487 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:15:43.487 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:15:43.488 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:15:43.488 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:15:44.497 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79207381: startup date [Mon Dec 04 15:15:40 CST 2017]; root of context hierarchy
+2017-12-04 15:15:44.570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:15:44.575 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:15:44.575 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:15:44.576 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:15:44.578 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:15:44.578 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:15:44.627 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:44.627 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:44.649 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:15:44.680 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:15:45.190 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:15:45.191 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:15:45.191 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:15:45.197 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:15:45.202 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:15:45.212 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:15:45.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:15:45.251 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:15:45.273 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:15:45.278 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.159 seconds (JVM running for 5.707)
+2017-12-04 15:15:51.484 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 15:15:51.485 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 15:15:51.533 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2017-12-04 15:15:51.558 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/users?
+2017-12-04 15:15:51.999 [http-nio-8888-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:15:52.148 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - 耗时: 590毫秒
+2017-12-04 15:15:52.264 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605","name":"测试用户"},{"id":5,"mobile":"13810315896","name":"吴可峥"},{"id":6,"mobile":"15861684221","name":"马梦云"},{"id":7,"mobile":"13817335978","name":"陈勇安"},{"id":8,"mobile":"18800582663","name":"徐志钢"},{"id":9,"mobile":"13764915407","name":"陈丽萍"},{"id":13,"mobile":"13681468168","name":"刘佳"},{"id":14,"mobile":"13671918809","name":"狄怡雯"},{"id":19,"mobile":"13862142750","name":"顾士君"},{"id":20,"mobile":"13606216246","name":"顾梅娟"},{"id":21,"mobile":"13811738925","name":"李博"},{"id":23,"mobile":"13818105740","name":"杨晓静"},{"id":25,"mobile":"18910540579","name":"黄小静"},{"id":26,"mobile":"18612320083","name":"孙敏"},{"id":27,"mobile":"15210306774","name":"姬晴"},{"id":28,"mobile":"13001000491","name":"李小平"},{"id":29,"mobile":"13001000926","name":"周晓林"},{"id":30,"mobile":"13001003126","name":"王利敏"},{"id":31,"mobile":"13001006352","name":"梁巨勇"},{"id":32,"mobile":"13001007743","name":"尚金光"},{"id":33,"mobile":"13001009683","name":"张桥"},{"id":34,"mobile":"13001012730","name":"肖长青"},{"id":35,"mobile":"13001018030","name":"王爽"},{"id":36,"mobile":"13001018260","name":"聂嫔"},{"id":37,"mobile":"13001021268","name":"张士关"},{"id":38,"mobile":"13001022534","name":"倪修春"},{"id":39,"mobile":"13001026413","name":"蒋健"},{"id":40,"mobile":"13001026983","name":"孙凤玲"},{"id":41,"mobile":"13001033388","name":"吴晓宇"},{"id":42,"mobile":"13001034701","name":"杨海玲"},{"id":43,"mobile":"13001034956","name":"李华"},{"id":44,"mobile":"13001041636","name":"老庄"},{"id":45,"mobile":"13001042261","name":"王俊龙"},{"id":46,"mobile":"13001049978","name":"常巧凤"},{"id":47,"mobile":"13001063555","name":"高永涛"},{"id":48,"mobile":"13001069371","name":"史晓霞"},{"id":49,"mobile":"13001071328","name":"肖进英"},{"id":50,"mobile":"13001071779","name":"梦瑶"},{"id":51,"mobile":"13001072757","name":"周静"},{"id":52,"mobile":"13001073371","name":"董瀚"},{"id":53,"mobile":"13001077790","name":"尤天翔"},{"id":54,"mobile":"13001078359","name":"王朝晖"},{"id":55,"mobile":"13001079855","name":"曹三军"},{"id":56,"mobile":"13001083682","name":"韩宇"},{"id":57,"mobile":"13001084289","name":"张先生"},{"id":58,"mobile":"13001084695","name":"刘进"},{"id":59,"mobile":"13001085979","name":"郝炳联"},{"id":60,"mobile":"13001087112","name":"高尚"},{"id":61,"mobile":"13001088485","name":"丁同南"},{"id":62,"mobile":"13001088676","name":"宋秀凤"},{"id":63,"mobile":"13001089075","name":"唐秋华"},{"id":64,"mobile":"13001092122","name":"卢朋飞"},{"id":65,"mobile":"13001093807","name":"董建影"},{"id":66,"mobile":"13001095304","name":"李晖"},{"id":67,"mobile":"13001096680","name":"闫月清"},{"id":68,"mobile":"13001096916","name":"孔军"},{"id":69,"mobile":"13001096960","name":"程虎军"},{"id":70,"mobile":"13001098626","name":"申女士"},{"id":71,"mobile":"13001098788","name":"赵伟鹏"},{"id":72,"mobile":"13001099316","name":"胡玉梅"},{"id":73,"mobile":"13001109557","name":"胡珊"},{"id":74,"mobile":"13001109799","name":"赵建东"},{"id":75,"mobile":"13001115777","name":"张静"},{"id":76,"mobile":"13001120965","name":"皮秀玮"},{"id":77,"mobile":"13001126395","name":"刘娟"},{"id":78,"mobile":"13001126502","name":"陈玉秀"},{"id":79,"mobile":"13001131729","name":"马迎春"},{"id":80,"mobile":"13001136191","name":"张凡"},{"id":81,"mobile":"13001136699","name":"杨军"},{"id":82,"mobile":"13001137568","name":"杨慧玲"},{"id":83,"mobile":"13001143258","name":"刘杉杉"},{"id":84,"mobile":"13001145001","name":"王双双"},{"id":85,"mobile":"13001149878","name":"李清元"},{"id":86,"mobile":"13001151766","name":"曹佳"},{"id":87,"mobile":"13001152580","name":"李敬敬"},{"id":88,"mobile":"13001154822","name":"林文溢"},{"id":89,"mobile":"13001156893","name":"王可娟"},{"id":90,"mobile":"13001157299","name":"刘平奇"},{"id":91,"mobile":"13001162330","name":"冯勇"},{"id":92,"mobile":"13001165557","name":"刘建平"},{"id":93,"mobile":"13001167269","name":"董孝"},{"id":94,"mobile":"13001167898","name":"张志娟"},{"id":95,"mobile":"13001169880","name":"潘安帝"},{"id":96,"mobile":"13001170929","name":"于晓艳"},{"id":97,"mobile":"13001177624","name":"陈蓓"},{"id":98,"mobile":"13001179479","name":"李翔"},{"id":99,"mobile":"13001181227","name":"王晓军"},{"id":100,"mobile":"13001182204","name":"平雅云"},{"id":101,"mobile":"13001185078","name":"殷志萍"},{"id":102,"mobile":"13001185272","name":"于金焕"},{"id":103,"mobile":"13001185575","name":"徐新平"},{"id":104,"mobile":"13001185807","name":"杨波"},{"id":105,"mobile":"13001186595","name":"刘辉"},{"id":106,"mobile":"13001186900","name":"梁轶"},{"id":107,"mobile":"13001187436","name":"王淳"},{"id":108,"mobile":"13001189515","name":"冷雅群"},{"id":109,"mobile":"13001192151","name":"老庄"},{"id":110,"mobile":"13001195381","name":"顾月华"},{"id":111,"mobile":"13001196681","name":"杨超"},{"id":112,"mobile":"13001196730","name":"徐三强"}]}
+2017-12-04 15:16:30.457 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - http://localhost:8888/sbd/userById?id=94&
+2017-12-04 15:16:30.489 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - 耗时: 32毫秒
+2017-12-04 15:16:30.489 [http-nio-8888-exec-3] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1","user":{"id":94,"mobile":"13001167898","name":"张志娟"}},"resultList":[]}
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:20:46.829 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 16172 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:20:46.831 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:20:46.885 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f736069: startup date [Mon Dec 04 15:20:46 CST 2017]; root of context hierarchy
+2017-12-04 15:20:47.777 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:20:48.301 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:20:51.843 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f736069: startup date [Mon Dec 04 15:20:46 CST 2017]; root of context hierarchy
+2017-12-04 15:20:52.138 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:20:52.147 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:20:52.148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:20:52.148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:20:52.151 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:20:52.152 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:20:52.253 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:20:52.254 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:20:52.278 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:20:52.328 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:20:53.405 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 7.643 seconds (JVM running for 8.757)
+2017-12-04 15:20:53.500 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:20:53.501 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:20:53.501 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:20:53.509 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@8bd86c8
+2017-12-04 15:20:53.518 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:20:53.518 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:20:53.518 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 0 ms
+2017-12-04 15:20:53.585 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@f736069: startup date [Mon Dec 04 15:20:46 CST 2017]; root of context hierarchy
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:23:17.416 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 17928 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:23:17.418 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:23:17.446 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:23:17 CST 2017]; root of context hierarchy
+2017-12-04 15:23:18.568 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:23:19.100 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:23:22.032 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:23:22.032 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:23:22.284 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:23:22.289 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:23:22.289 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:23:22.289 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:23:22.293 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:23:22.294 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:23:22.353 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:23:22.354 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:23:22.388 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:23:22.954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:23:17 CST 2017]; root of context hierarchy
+2017-12-04 15:23:23.051 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:23:23.115 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1083 ms
+2017-12-04 15:23:23.722 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 7.285 seconds (JVM running for 8.423)
+2017-12-04 15:23:23.833 [main] INFO  com.my.config.WebLogAspect - http://localhost/users?
+2017-12-04 15:23:24.351 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:23:24.596 [main] INFO  com.my.config.WebLogAspect - 耗时: 763毫秒
+2017-12-04 15:23:24.789 [main] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605","name":"测试用户"},{"id":5,"mobile":"13810315896","name":"吴可峥"},{"id":6,"mobile":"15861684221","name":"马梦云"},{"id":7,"mobile":"13817335978","name":"陈勇安"},{"id":8,"mobile":"18800582663","name":"徐志钢"},{"id":9,"mobile":"13764915407","name":"陈丽萍"},{"id":13,"mobile":"13681468168","name":"刘佳"},{"id":14,"mobile":"13671918809","name":"狄怡雯"},{"id":19,"mobile":"13862142750","name":"顾士君"},{"id":20,"mobile":"13606216246","name":"顾梅娟"},{"id":21,"mobile":"13811738925","name":"李博"},{"id":23,"mobile":"13818105740","name":"杨晓静"},{"id":25,"mobile":"18910540579","name":"黄小静"},{"id":26,"mobile":"18612320083","name":"孙敏"},{"id":27,"mobile":"15210306774","name":"姬晴"},{"id":28,"mobile":"13001000491","name":"李小平"},{"id":29,"mobile":"13001000926","name":"周晓林"},{"id":30,"mobile":"13001003126","name":"王利敏"},{"id":31,"mobile":"13001006352","name":"梁巨勇"},{"id":32,"mobile":"13001007743","name":"尚金光"},{"id":33,"mobile":"13001009683","name":"张桥"},{"id":34,"mobile":"13001012730","name":"肖长青"},{"id":35,"mobile":"13001018030","name":"王爽"},{"id":36,"mobile":"13001018260","name":"聂嫔"},{"id":37,"mobile":"13001021268","name":"张士关"},{"id":38,"mobile":"13001022534","name":"倪修春"},{"id":39,"mobile":"13001026413","name":"蒋健"},{"id":40,"mobile":"13001026983","name":"孙凤玲"},{"id":41,"mobile":"13001033388","name":"吴晓宇"},{"id":42,"mobile":"13001034701","name":"杨海玲"},{"id":43,"mobile":"13001034956","name":"李华"},{"id":44,"mobile":"13001041636","name":"老庄"},{"id":45,"mobile":"13001042261","name":"王俊龙"},{"id":46,"mobile":"13001049978","name":"常巧凤"},{"id":47,"mobile":"13001063555","name":"高永涛"},{"id":48,"mobile":"13001069371","name":"史晓霞"},{"id":49,"mobile":"13001071328","name":"肖进英"},{"id":50,"mobile":"13001071779","name":"梦瑶"},{"id":51,"mobile":"13001072757","name":"周静"},{"id":52,"mobile":"13001073371","name":"董瀚"},{"id":53,"mobile":"13001077790","name":"尤天翔"},{"id":54,"mobile":"13001078359","name":"王朝晖"},{"id":55,"mobile":"13001079855","name":"曹三军"},{"id":56,"mobile":"13001083682","name":"韩宇"},{"id":57,"mobile":"13001084289","name":"张先生"},{"id":58,"mobile":"13001084695","name":"刘进"},{"id":59,"mobile":"13001085979","name":"郝炳联"},{"id":60,"mobile":"13001087112","name":"高尚"},{"id":61,"mobile":"13001088485","name":"丁同南"},{"id":62,"mobile":"13001088676","name":"宋秀凤"},{"id":63,"mobile":"13001089075","name":"唐秋华"},{"id":64,"mobile":"13001092122","name":"卢朋飞"},{"id":65,"mobile":"13001093807","name":"董建影"},{"id":66,"mobile":"13001095304","name":"李晖"},{"id":67,"mobile":"13001096680","name":"闫月清"},{"id":68,"mobile":"13001096916","name":"孔军"},{"id":69,"mobile":"13001096960","name":"程虎军"},{"id":70,"mobile":"13001098626","name":"申女士"},{"id":71,"mobile":"13001098788","name":"赵伟鹏"},{"id":72,"mobile":"13001099316","name":"胡玉梅"},{"id":73,"mobile":"13001109557","name":"胡珊"},{"id":74,"mobile":"13001109799","name":"赵建东"},{"id":75,"mobile":"13001115777","name":"张静"},{"id":76,"mobile":"13001120965","name":"皮秀玮"},{"id":77,"mobile":"13001126395","name":"刘娟"},{"id":78,"mobile":"13001126502","name":"陈玉秀"},{"id":79,"mobile":"13001131729","name":"马迎春"},{"id":80,"mobile":"13001136191","name":"张凡"},{"id":81,"mobile":"13001136699","name":"杨军"},{"id":82,"mobile":"13001137568","name":"杨慧玲"},{"id":83,"mobile":"13001143258","name":"刘杉杉"},{"id":84,"mobile":"13001145001","name":"王双双"},{"id":85,"mobile":"13001149878","name":"李清元"},{"id":86,"mobile":"13001151766","name":"曹佳"},{"id":87,"mobile":"13001152580","name":"李敬敬"},{"id":88,"mobile":"13001154822","name":"林文溢"},{"id":89,"mobile":"13001156893","name":"王可娟"},{"id":90,"mobile":"13001157299","name":"刘平奇"},{"id":91,"mobile":"13001162330","name":"冯勇"},{"id":92,"mobile":"13001165557","name":"刘建平"},{"id":93,"mobile":"13001167269","name":"董孝"},{"id":94,"mobile":"13001167898","name":"张志娟"},{"id":95,"mobile":"13001169880","name":"潘安帝"},{"id":96,"mobile":"13001170929","name":"于晓艳"},{"id":97,"mobile":"13001177624","name":"陈蓓"},{"id":98,"mobile":"13001179479","name":"李翔"},{"id":99,"mobile":"13001181227","name":"王晓军"},{"id":100,"mobile":"13001182204","name":"平雅云"},{"id":101,"mobile":"13001185078","name":"殷志萍"},{"id":102,"mobile":"13001185272","name":"于金焕"},{"id":103,"mobile":"13001185575","name":"徐新平"},{"id":104,"mobile":"13001185807","name":"杨波"},{"id":105,"mobile":"13001186595","name":"刘辉"},{"id":106,"mobile":"13001186900","name":"梁轶"},{"id":107,"mobile":"13001187436","name":"王淳"},{"id":108,"mobile":"13001189515","name":"冷雅群"},{"id":109,"mobile":"13001192151","name":"老庄"},{"id":110,"mobile":"13001195381","name":"顾月华"},{"id":111,"mobile":"13001196681","name":"杨超"},{"id":112,"mobile":"13001196730","name":"徐三强"}]}
+2017-12-04 15:23:24.972 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:23:17 CST 2017]; root of context hierarchy
+2017-12-04 15:23:24.987 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:24:28.397 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 15616 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:24:28.398 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:24:28.458 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:24:28 CST 2017]; root of context hierarchy
+2017-12-04 15:24:29.452 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:24:30.634 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:24:32.678 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:24:32.678 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:24:32.867 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:24:32.873 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:24:32.880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:24:32.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:24:32.905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:24:32.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:24:32.978 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:24:32.978 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:24:33.009 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:24:33.459 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:24:28 CST 2017]; root of context hierarchy
+2017-12-04 15:24:33.559 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:24:33.628 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 950 ms
+2017-12-04 15:24:34.220 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 6.966 seconds (JVM running for 8.108)
+2017-12-04 15:24:34.338 [main] INFO  com.my.config.WebLogAspect - http://localhost/users?
+2017-12-04 15:24:34.888 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:24:35.105 [main] INFO  com.my.config.WebLogAspect - 耗时: 767毫秒
+2017-12-04 15:24:35.226 [main] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605","name":"测试用户"},{"id":5,"mobile":"13810315896","name":"吴可峥"},{"id":6,"mobile":"15861684221","name":"马梦云"},{"id":7,"mobile":"13817335978","name":"陈勇安"},{"id":8,"mobile":"18800582663","name":"徐志钢"},{"id":9,"mobile":"13764915407","name":"陈丽萍"},{"id":13,"mobile":"13681468168","name":"刘佳"},{"id":14,"mobile":"13671918809","name":"狄怡雯"},{"id":19,"mobile":"13862142750","name":"顾士君"},{"id":20,"mobile":"13606216246","name":"顾梅娟"},{"id":21,"mobile":"13811738925","name":"李博"},{"id":23,"mobile":"13818105740","name":"杨晓静"},{"id":25,"mobile":"18910540579","name":"黄小静"},{"id":26,"mobile":"18612320083","name":"孙敏"},{"id":27,"mobile":"15210306774","name":"姬晴"},{"id":28,"mobile":"13001000491","name":"李小平"},{"id":29,"mobile":"13001000926","name":"周晓林"},{"id":30,"mobile":"13001003126","name":"王利敏"},{"id":31,"mobile":"13001006352","name":"梁巨勇"},{"id":32,"mobile":"13001007743","name":"尚金光"},{"id":33,"mobile":"13001009683","name":"张桥"},{"id":34,"mobile":"13001012730","name":"肖长青"},{"id":35,"mobile":"13001018030","name":"王爽"},{"id":36,"mobile":"13001018260","name":"聂嫔"},{"id":37,"mobile":"13001021268","name":"张士关"},{"id":38,"mobile":"13001022534","name":"倪修春"},{"id":39,"mobile":"13001026413","name":"蒋健"},{"id":40,"mobile":"13001026983","name":"孙凤玲"},{"id":41,"mobile":"13001033388","name":"吴晓宇"},{"id":42,"mobile":"13001034701","name":"杨海玲"},{"id":43,"mobile":"13001034956","name":"李华"},{"id":44,"mobile":"13001041636","name":"老庄"},{"id":45,"mobile":"13001042261","name":"王俊龙"},{"id":46,"mobile":"13001049978","name":"常巧凤"},{"id":47,"mobile":"13001063555","name":"高永涛"},{"id":48,"mobile":"13001069371","name":"史晓霞"},{"id":49,"mobile":"13001071328","name":"肖进英"},{"id":50,"mobile":"13001071779","name":"梦瑶"},{"id":51,"mobile":"13001072757","name":"周静"},{"id":52,"mobile":"13001073371","name":"董瀚"},{"id":53,"mobile":"13001077790","name":"尤天翔"},{"id":54,"mobile":"13001078359","name":"王朝晖"},{"id":55,"mobile":"13001079855","name":"曹三军"},{"id":56,"mobile":"13001083682","name":"韩宇"},{"id":57,"mobile":"13001084289","name":"张先生"},{"id":58,"mobile":"13001084695","name":"刘进"},{"id":59,"mobile":"13001085979","name":"郝炳联"},{"id":60,"mobile":"13001087112","name":"高尚"},{"id":61,"mobile":"13001088485","name":"丁同南"},{"id":62,"mobile":"13001088676","name":"宋秀凤"},{"id":63,"mobile":"13001089075","name":"唐秋华"},{"id":64,"mobile":"13001092122","name":"卢朋飞"},{"id":65,"mobile":"13001093807","name":"董建影"},{"id":66,"mobile":"13001095304","name":"李晖"},{"id":67,"mobile":"13001096680","name":"闫月清"},{"id":68,"mobile":"13001096916","name":"孔军"},{"id":69,"mobile":"13001096960","name":"程虎军"},{"id":70,"mobile":"13001098626","name":"申女士"},{"id":71,"mobile":"13001098788","name":"赵伟鹏"},{"id":72,"mobile":"13001099316","name":"胡玉梅"},{"id":73,"mobile":"13001109557","name":"胡珊"},{"id":74,"mobile":"13001109799","name":"赵建东"},{"id":75,"mobile":"13001115777","name":"张静"},{"id":76,"mobile":"13001120965","name":"皮秀玮"},{"id":77,"mobile":"13001126395","name":"刘娟"},{"id":78,"mobile":"13001126502","name":"陈玉秀"},{"id":79,"mobile":"13001131729","name":"马迎春"},{"id":80,"mobile":"13001136191","name":"张凡"},{"id":81,"mobile":"13001136699","name":"杨军"},{"id":82,"mobile":"13001137568","name":"杨慧玲"},{"id":83,"mobile":"13001143258","name":"刘杉杉"},{"id":84,"mobile":"13001145001","name":"王双双"},{"id":85,"mobile":"13001149878","name":"李清元"},{"id":86,"mobile":"13001151766","name":"曹佳"},{"id":87,"mobile":"13001152580","name":"李敬敬"},{"id":88,"mobile":"13001154822","name":"林文溢"},{"id":89,"mobile":"13001156893","name":"王可娟"},{"id":90,"mobile":"13001157299","name":"刘平奇"},{"id":91,"mobile":"13001162330","name":"冯勇"},{"id":92,"mobile":"13001165557","name":"刘建平"},{"id":93,"mobile":"13001167269","name":"董孝"},{"id":94,"mobile":"13001167898","name":"张志娟"},{"id":95,"mobile":"13001169880","name":"潘安帝"},{"id":96,"mobile":"13001170929","name":"于晓艳"},{"id":97,"mobile":"13001177624","name":"陈蓓"},{"id":98,"mobile":"13001179479","name":"李翔"},{"id":99,"mobile":"13001181227","name":"王晓军"},{"id":100,"mobile":"13001182204","name":"平雅云"},{"id":101,"mobile":"13001185078","name":"殷志萍"},{"id":102,"mobile":"13001185272","name":"于金焕"},{"id":103,"mobile":"13001185575","name":"徐新平"},{"id":104,"mobile":"13001185807","name":"杨波"},{"id":105,"mobile":"13001186595","name":"刘辉"},{"id":106,"mobile":"13001186900","name":"梁轶"},{"id":107,"mobile":"13001187436","name":"王淳"},{"id":108,"mobile":"13001189515","name":"冷雅群"},{"id":109,"mobile":"13001192151","name":"老庄"},{"id":110,"mobile":"13001195381","name":"顾月华"},{"id":111,"mobile":"13001196681","name":"杨超"},{"id":112,"mobile":"13001196730","name":"徐三强"}]}
+2017-12-04 15:24:35.333 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:24:28 CST 2017]; root of context hierarchy
+2017-12-04 15:24:35.346 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:25:03.337 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 3000 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:25:03.339 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:25:03.429 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:25:03 CST 2017]; root of context hierarchy
+2017-12-04 15:25:03.989 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:25:05.095 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:25:07.629 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:25:07.630 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:25:07.845 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:25:07.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:25:07.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:25:07.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:25:07.855 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:25:07.856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:25:07.922 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:25:07.922 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:25:07.958 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:25:08.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:25:03 CST 2017]; root of context hierarchy
+2017-12-04 15:25:08.538 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:25:08.627 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 997 ms
+2017-12-04 15:25:09.220 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 6.921 seconds (JVM running for 8.115)
+2017-12-04 15:25:09.348 [main] INFO  com.my.config.WebLogAspect - http://localhost/users?
+2017-12-04 15:25:09.833 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:25:10.037 [main] INFO  com.my.config.WebLogAspect - 耗时: 689毫秒
+2017-12-04 15:25:10.191 [main] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605","name":"测试用户"},{"id":5,"mobile":"13810315896","name":"吴可峥"},{"id":6,"mobile":"15861684221","name":"马梦云"},{"id":7,"mobile":"13817335978","name":"陈勇安"},{"id":8,"mobile":"18800582663","name":"徐志钢"},{"id":9,"mobile":"13764915407","name":"陈丽萍"},{"id":13,"mobile":"13681468168","name":"刘佳"},{"id":14,"mobile":"13671918809","name":"狄怡雯"},{"id":19,"mobile":"13862142750","name":"顾士君"},{"id":20,"mobile":"13606216246","name":"顾梅娟"},{"id":21,"mobile":"13811738925","name":"李博"},{"id":23,"mobile":"13818105740","name":"杨晓静"},{"id":25,"mobile":"18910540579","name":"黄小静"},{"id":26,"mobile":"18612320083","name":"孙敏"},{"id":27,"mobile":"15210306774","name":"姬晴"},{"id":28,"mobile":"13001000491","name":"李小平"},{"id":29,"mobile":"13001000926","name":"周晓林"},{"id":30,"mobile":"13001003126","name":"王利敏"},{"id":31,"mobile":"13001006352","name":"梁巨勇"},{"id":32,"mobile":"13001007743","name":"尚金光"},{"id":33,"mobile":"13001009683","name":"张桥"},{"id":34,"mobile":"13001012730","name":"肖长青"},{"id":35,"mobile":"13001018030","name":"王爽"},{"id":36,"mobile":"13001018260","name":"聂嫔"},{"id":37,"mobile":"13001021268","name":"张士关"},{"id":38,"mobile":"13001022534","name":"倪修春"},{"id":39,"mobile":"13001026413","name":"蒋健"},{"id":40,"mobile":"13001026983","name":"孙凤玲"},{"id":41,"mobile":"13001033388","name":"吴晓宇"},{"id":42,"mobile":"13001034701","name":"杨海玲"},{"id":43,"mobile":"13001034956","name":"李华"},{"id":44,"mobile":"13001041636","name":"老庄"},{"id":45,"mobile":"13001042261","name":"王俊龙"},{"id":46,"mobile":"13001049978","name":"常巧凤"},{"id":47,"mobile":"13001063555","name":"高永涛"},{"id":48,"mobile":"13001069371","name":"史晓霞"},{"id":49,"mobile":"13001071328","name":"肖进英"},{"id":50,"mobile":"13001071779","name":"梦瑶"},{"id":51,"mobile":"13001072757","name":"周静"},{"id":52,"mobile":"13001073371","name":"董瀚"},{"id":53,"mobile":"13001077790","name":"尤天翔"},{"id":54,"mobile":"13001078359","name":"王朝晖"},{"id":55,"mobile":"13001079855","name":"曹三军"},{"id":56,"mobile":"13001083682","name":"韩宇"},{"id":57,"mobile":"13001084289","name":"张先生"},{"id":58,"mobile":"13001084695","name":"刘进"},{"id":59,"mobile":"13001085979","name":"郝炳联"},{"id":60,"mobile":"13001087112","name":"高尚"},{"id":61,"mobile":"13001088485","name":"丁同南"},{"id":62,"mobile":"13001088676","name":"宋秀凤"},{"id":63,"mobile":"13001089075","name":"唐秋华"},{"id":64,"mobile":"13001092122","name":"卢朋飞"},{"id":65,"mobile":"13001093807","name":"董建影"},{"id":66,"mobile":"13001095304","name":"李晖"},{"id":67,"mobile":"13001096680","name":"闫月清"},{"id":68,"mobile":"13001096916","name":"孔军"},{"id":69,"mobile":"13001096960","name":"程虎军"},{"id":70,"mobile":"13001098626","name":"申女士"},{"id":71,"mobile":"13001098788","name":"赵伟鹏"},{"id":72,"mobile":"13001099316","name":"胡玉梅"},{"id":73,"mobile":"13001109557","name":"胡珊"},{"id":74,"mobile":"13001109799","name":"赵建东"},{"id":75,"mobile":"13001115777","name":"张静"},{"id":76,"mobile":"13001120965","name":"皮秀玮"},{"id":77,"mobile":"13001126395","name":"刘娟"},{"id":78,"mobile":"13001126502","name":"陈玉秀"},{"id":79,"mobile":"13001131729","name":"马迎春"},{"id":80,"mobile":"13001136191","name":"张凡"},{"id":81,"mobile":"13001136699","name":"杨军"},{"id":82,"mobile":"13001137568","name":"杨慧玲"},{"id":83,"mobile":"13001143258","name":"刘杉杉"},{"id":84,"mobile":"13001145001","name":"王双双"},{"id":85,"mobile":"13001149878","name":"李清元"},{"id":86,"mobile":"13001151766","name":"曹佳"},{"id":87,"mobile":"13001152580","name":"李敬敬"},{"id":88,"mobile":"13001154822","name":"林文溢"},{"id":89,"mobile":"13001156893","name":"王可娟"},{"id":90,"mobile":"13001157299","name":"刘平奇"},{"id":91,"mobile":"13001162330","name":"冯勇"},{"id":92,"mobile":"13001165557","name":"刘建平"},{"id":93,"mobile":"13001167269","name":"董孝"},{"id":94,"mobile":"13001167898","name":"张志娟"},{"id":95,"mobile":"13001169880","name":"潘安帝"},{"id":96,"mobile":"13001170929","name":"于晓艳"},{"id":97,"mobile":"13001177624","name":"陈蓓"},{"id":98,"mobile":"13001179479","name":"李翔"},{"id":99,"mobile":"13001181227","name":"王晓军"},{"id":100,"mobile":"13001182204","name":"平雅云"},{"id":101,"mobile":"13001185078","name":"殷志萍"},{"id":102,"mobile":"13001185272","name":"于金焕"},{"id":103,"mobile":"13001185575","name":"徐新平"},{"id":104,"mobile":"13001185807","name":"杨波"},{"id":105,"mobile":"13001186595","name":"刘辉"},{"id":106,"mobile":"13001186900","name":"梁轶"},{"id":107,"mobile":"13001187436","name":"王淳"},{"id":108,"mobile":"13001189515","name":"冷雅群"},{"id":109,"mobile":"13001192151","name":"老庄"},{"id":110,"mobile":"13001195381","name":"顾月华"},{"id":111,"mobile":"13001196681","name":"杨超"},{"id":112,"mobile":"13001196730","name":"徐三强"}]}
+2017-12-04 15:25:10.287 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:25:03 CST 2017]; root of context hierarchy
+2017-12-04 15:25:10.299 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:27:20.897 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 10648 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:27:20.898 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:27:20.932 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:20 CST 2017]; root of context hierarchy
+2017-12-04 15:27:21.787 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:27:22.252 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:27:24.692 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:27:24.693 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:27:24.887 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:27:24.894 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:27:24.895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:27:24.895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:27:24.901 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:27:24.902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:27:25.035 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:25.035 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:25.066 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:25.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:20 CST 2017]; root of context hierarchy
+2017-12-04 15:27:25.555 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:27:25.615 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 922 ms
+2017-12-04 15:27:26.189 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 6.049 seconds (JVM running for 7.264)
+2017-12-04 15:27:26.299 [main] ERROR com.my.config.ExceptionHandle - 【系统异常】{}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:207)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:374)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:314)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.getHandler(TestDispatcherServlet.java:90)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:160)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:127)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at com.my.controller.UserControllerTest.users1(UserControllerTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2017-12-04 15:27:26.394 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:20 CST 2017]; root of context hierarchy
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:27:50.069 [main] INFO  com.my.controller.UserControllerTest - Starting UserControllerTest on wt with PID 17200 (started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:27:50.070 [main] INFO  com.my.controller.UserControllerTest - The following profiles are active: dev
+2017-12-04 15:27:50.096 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:50 CST 2017]; root of context hierarchy
+2017-12-04 15:27:50.697 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:27:51.998 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:27:54.507 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2017-12-04 15:27:54.508 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2017-12-04 15:27:54.732 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:27:54.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:27:54.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:27:54.738 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:27:54.742 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:27:54.743 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:27:54.849 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:54.849 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:54.880 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:27:55.252 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:50 CST 2017]; root of context hierarchy
+2017-12-04 15:27:55.558 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:27:55.781 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1273 ms
+2017-12-04 15:27:56.364 [main] INFO  com.my.controller.UserControllerTest - Started UserControllerTest in 7.156 seconds (JVM running for 8.548)
+2017-12-04 15:27:56.476 [main] INFO  com.my.config.WebLogAspect - http://localhost/userById/?id=48&
+2017-12-04 15:27:56.970 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 15:27:57.207 [main] INFO  com.my.config.WebLogAspect - 耗时: 731毫秒
+2017-12-04 15:27:57.333 [main] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1","user":{"id":48,"mobile":"13001069371","name":"史晓霞"}},"resultList":[]}
+2017-12-04 15:27:57.430 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:50 CST 2017]; root of context hierarchy
+2017-12-04 15:27:57.446 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
