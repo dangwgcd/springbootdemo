@@ -22,3 +22,10 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+/.idea/
+/mvnw.cmd
+/.mvn/
+/springbootdemo.iml
+/logs/
+/mvnw
+/target/
