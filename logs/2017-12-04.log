@@ -1,0 +1,71 @@
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 11:34:43.472 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 5300 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 11:34:43.483 [main] INFO  com.my.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2017-12-04 11:34:43.557 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@525b461a: startup date [Mon Dec 04 11:34:43 CST 2017]; root of context hierarchy
+2017-12-04 11:34:44.171 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 11:34:45.181 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 11:34:47.386 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 11:34:47.400 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 11:34:47.402 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 11:34:48.181 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 11:34:48.182 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4624 ms
+2017-12-04 11:34:48.975 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 11:34:49.003 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 11:34:49.005 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 11:34:49.006 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 11:34:49.013 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 11:34:49.934 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@525b461a: startup date [Mon Dec 04 11:34:43 CST 2017]; root of context hierarchy
+2017-12-04 11:34:50.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 11:34:50.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 11:34:50.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 11:34:50.080 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:34:50.080 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:34:50.114 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:34:50.431 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 11:34:50.432 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 11:34:50.440 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 11:34:50.460 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 11:34:50.472 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 11:34:50.484 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 11:34:50.507 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 11:34:50.512 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.5 seconds (JVM running for 8.129)
+2017-12-04 11:35:10.367 [http-nio-8888-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 11:35:10.367 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 11:35:10.395 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2017-12-04 11:35:10.415 [http-nio-8888-exec-3] INFO  com.my.common.LogSpringActionHandler - http://localhost:8888/sbd/?
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 11:43:52.099 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 13996 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 11:43:52.102 [main] INFO  com.my.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2017-12-04 11:43:52.138 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@525b461a: startup date [Mon Dec 04 11:43:52 CST 2017]; root of context hierarchy
+2017-12-04 11:43:52.386 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 11:43:52.940 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 11:43:54.055 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 11:43:54.066 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 11:43:54.066 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 11:43:54.176 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 11:43:54.176 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2038 ms
+2017-12-04 11:43:54.360 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 11:43:54.363 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 11:43:54.363 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 11:43:54.364 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 11:43:54.364 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 11:43:55.016 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@525b461a: startup date [Mon Dec 04 11:43:52 CST 2017]; root of context hierarchy
+2017-12-04 11:43:55.063 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 11:43:55.067 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 11:43:55.068 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 11:43:55.108 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:43:55.108 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:43:55.144 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 11:43:55.444 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 11:43:55.445 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 11:43:55.449 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 11:43:55.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 11:43:55.482 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 11:43:55.494 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 11:43:55.508 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 11:43:55.512 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 3.744 seconds (JVM running for 4.211)
+2017-12-04 11:44:02.267 [http-nio-8888-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 11:44:02.267 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 11:44:02.306 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2017-12-04 11:44:02.326 [http-nio-8888-exec-3] INFO  com.my.common.WebLogAspect - http://localhost:8888/sbd/?
+2017-12-04 11:44:02.331 [http-nio-8888-exec-3] INFO  com.my.common.WebLogAspect - RESPONSE : hello,springbootdemo!
