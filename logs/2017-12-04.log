@@ -1086,3 +1086,1018 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2017-12-04 15:27:57.333 [main] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1","user":{"id":48,"mobile":"13001069371","name":"史晓霞"}},"resultList":[]}
 2017-12-04 15:27:57.430 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5a56cdac: startup date [Mon Dec 04 15:27:50 CST 2017]; root of context hierarchy
 2017-12-04 15:27:57.446 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:51:30.647 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 18428 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:51:30.650 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:51:30.745 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74d1dc36: startup date [Mon Dec 04 15:51:30 CST 2017]; root of context hierarchy
+2017-12-04 15:51:31.102 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:51:32.597 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:51:33.258 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8848dd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 15:51:34.207 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:51:34.220 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:51:34.221 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:51:34.361 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:51:34.362 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3617 ms
+2017-12-04 15:51:34.695 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:51:34.702 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:51:34.702 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:51:34.702 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:51:34.702 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:51:35.964 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:51:35.969 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:51:35.970 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:51:35.970 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:51:35.971 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-12-04 15:51:35.974 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 15:51:35.975 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 15:51:35.976 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 15:51:35.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:51:35.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:51:36.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74d1dc36: startup date [Mon Dec 04 15:51:30 CST 2017]; root of context hierarchy
+2017-12-04 15:51:36.764 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:51:36.765 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:51:36.791 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:51:36.830 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:51:37.522 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:51:37.524 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:51:37.524 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:51:37.534 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:51:37.536 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:51:37.546 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 15:51:37.567 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2017-12-04 15:51:37.580 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 15:51:37.584 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.586 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='hello-controller', position=0, controller=com.my.controller.HelloController}]] 
+2017-12-04 15:51:37.587 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:51:37.587 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test1 belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:51:37.588 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.588 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:51:37.588 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.588 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:51:37.595 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/hello-controller Description: hello-controller Position: 0
+2017-12-04 15:51:37.596 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-12-04 15:51:37.649 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 15:51:37.649 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2017-12-04 15:51:37.661 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 15:51:37.661 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-12-04 15:51:37.666 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.667 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.676 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.681 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.685 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.687 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.688 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.689 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.689 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.690 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.690 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.691 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.692 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.693 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.694 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.695 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.695 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.696 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:51:37.722 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.722 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.723 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.723 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.770 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.770 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.770 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.770 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.772 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.772 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.773 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:51:37.774 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:51:37.779 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.781 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.781 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.781 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.782 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.782 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.793 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.798 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.804 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.804 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.804 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.804 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:51:37.805 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.805 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:51:37.805 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.806 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:51:37.806 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 15:51:37.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:51:37.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:51:37.863 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:51:37.889 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:51:37.896 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.79 seconds (JVM running for 8.506)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 15:52:45.837 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 18220 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 15:52:45.841 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 15:52:45.896 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5340477f: startup date [Mon Dec 04 15:52:45 CST 2017]; root of context hierarchy
+2017-12-04 15:52:46.169 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 15:52:47.569 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 15:52:48.266 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b13ad5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 15:52:49.245 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 15:52:49.261 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 15:52:49.262 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 15:52:49.430 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 15:52:49.430 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3534 ms
+2017-12-04 15:52:49.835 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 15:52:49.843 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 15:52:49.846 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 15:52:49.846 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 15:52:49.846 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 15:52:51.177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 15:52:51.190 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 15:52:51.192 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 15:52:51.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 15:52:51.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-12-04 15:52:51.196 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 15:52:51.197 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 15:52:51.198 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 15:52:51.202 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 15:52:51.204 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 15:52:51.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5340477f: startup date [Mon Dec 04 15:52:45 CST 2017]; root of context hierarchy
+2017-12-04 15:52:51.999 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:52:51.999 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:52:52.027 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 15:52:52.058 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 15:52:52.728 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 15:52:52.730 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 15:52:52.731 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 15:52:52.739 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 15:52:52.742 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 15:52:52.751 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 15:52:52.774 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2017-12-04 15:52:52.786 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 15:52:52.792 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.794 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='hello-controller', position=0, controller=com.my.controller.HelloController}]] 
+2017-12-04 15:52:52.796 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:52:52.796 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test1 belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:52:52.796 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.796 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:52:52.798 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.798 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 15:52:52.803 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/hello-controller Description: hello-controller Position: 0
+2017-12-04 15:52:52.804 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-12-04 15:52:52.826 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 15:52:52.827 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2017-12-04 15:52:52.833 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 15:52:52.833 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-12-04 15:52:52.840 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.840 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.851 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.855 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.858 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.860 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.861 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.861 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.862 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.862 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.863 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.864 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.864 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.865 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.865 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.866 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.866 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.867 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 15:52:52.887 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.887 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.888 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.888 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.925 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.925 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.925 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.925 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.926 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.926 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.927 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:52:52.928 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.931 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.944 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.947 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.955 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.955 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.956 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.956 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 15:52:52.956 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.956 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 15:52:52.957 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.957 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 15:52:52.958 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 15:52:52.976 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:52:52.987 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 15:52:53.008 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 15:52:53.049 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 15:52:53.056 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.7 seconds (JVM running for 8.29)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:17:08.280 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 18460 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:17:08.283 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:17:08.335 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74e28667: startup date [Mon Dec 04 16:17:08 CST 2017]; root of context hierarchy
+2017-12-04 16:17:08.556 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:17:09.296 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:17:11.092 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:17:11.108 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:17:11.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:17:11.273 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:17:11.273 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2938 ms
+2017-12-04 16:17:11.607 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:17:11.616 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:17:11.617 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:17:11.617 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:17:11.617 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:17:12.857 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74e28667: startup date [Mon Dec 04 16:17:08 CST 2017]; root of context hierarchy
+2017-12-04 16:17:12.952 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:17:12.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:17:12.958 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:17:12.958 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:17:12.960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:17:12.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:17:13.021 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:17:13.021 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:17:13.050 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:17:13.093 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:17:13.619 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:17:13.620 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:17:13.620 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:17:13.627 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:17:13.629 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:17:13.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:17:13.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:17:13.664 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:17:13.687 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:17:13.691 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 5.905 seconds (JVM running for 6.466)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:21:37.008 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 8912 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:21:37.011 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:21:37.065 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:21:37 CST 2017]; root of context hierarchy
+2017-12-04 16:21:37.293 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:21:38.448 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:21:39.135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db0c1ff5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:21:40.058 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:21:40.070 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:21:40.071 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:21:40.218 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:21:40.219 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3154 ms
+2017-12-04 16:21:40.519 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:21:40.524 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:21:40.524 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:21:40.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:21:40.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:21:41.630 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:21:41.634 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:21:41.636 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:21:41.638 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:21:41.642 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:21:41.643 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:21:41.644 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:21:41.647 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:21:41.648 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:21:42.014 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:21:42.481 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:21:37 CST 2017]; root of context hierarchy
+2017-12-04 16:21:42.554 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:21:42.554 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:21:42.579 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:21:42.614 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:21:43.131 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:21:43.133 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:21:43.134 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:21:43.142 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:21:43.144 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:21:43.148 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:21:43.148 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:21:43.196 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:21:43.253 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:21:43.565 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:21:43.588 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:21:43.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:21:43.620 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:21:43.640 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:21:43.645 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.131 seconds (JVM running for 7.747)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:28:09.808 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 244 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:28:09.817 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:28:09.885 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19e4653c: startup date [Mon Dec 04 16:28:09 CST 2017]; root of context hierarchy
+2017-12-04 16:28:10.134 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:28:11.936 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:28:12.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88c685e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:28:14.050 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:28:14.060 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:28:14.061 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:28:14.185 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:28:14.185 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4301 ms
+2017-12-04 16:28:14.504 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:28:14.509 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:28:14.510 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:28:14.510 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:28:14.510 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:28:15.673 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:28:15.681 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:28:15.681 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:28:15.682 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:28:15.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:28:15.689 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:28:15.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:28:15.693 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:28:15.694 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:28:16.006 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:28:16.447 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19e4653c: startup date [Mon Dec 04 16:28:09 CST 2017]; root of context hierarchy
+2017-12-04 16:28:16.530 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:28:16.530 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:28:16.553 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:28:16.586 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:28:17.116 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:28:17.117 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:28:17.118 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:28:17.127 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:28:17.130 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:28:17.133 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:28:17.134 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:28:17.153 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:28:17.195 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:28:17.502 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:28:17.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:28:17.534 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:28:17.546 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:28:17.569 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:28:17.576 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 8.425 seconds (JVM running for 9.195)
+2017-12-04 16:28:35.040 [http-nio-8888-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:28:35.040 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:28:35.088 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:31:55.544 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 4540 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:31:55.547 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:31:55.604 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75d3a5e0: startup date [Mon Dec 04 16:31:55 CST 2017]; root of context hierarchy
+2017-12-04 16:31:55.863 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:31:57.008 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:31:57.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39c45996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:31:58.460 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:31:58.470 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:31:58.471 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:31:58.593 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:31:58.594 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2990 ms
+2017-12-04 16:31:58.928 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:31:58.934 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:31:58.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:31:58.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:31:58.936 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:32:00.230 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:32:00.235 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:32:00.237 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:32:00.237 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:32:00.238 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-12-04 16:32:00.242 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:32:00.243 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:32:00.243 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:32:00.248 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:32:00.249 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:32:00.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75d3a5e0: startup date [Mon Dec 04 16:31:55 CST 2017]; root of context hierarchy
+2017-12-04 16:32:01.003 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:32:01.004 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:32:01.032 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:32:01.062 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:32:01.757 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:32:01.759 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:32:01.759 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:32:01.770 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:32:01.774 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:32:01.786 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:32:01.943 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2017-12-04 16:32:01.952 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:32:01.959 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:01.962 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='hello-controller', position=0, controller=com.my.controller.HelloController}]] 
+2017-12-04 16:32:01.964 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:32:01.964 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test1 belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:32:01.967 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:01.967 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:32:01.967 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:01.967 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:32:01.975 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-12-04 16:32:01.977 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/hello-controller Description: hello-controller Position: 0
+2017-12-04 16:32:02.006 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 16:32:02.007 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2017-12-04 16:32:02.017 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 16:32:02.017 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-12-04 16:32:02.027 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.027 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.042 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.047 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.052 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.052 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.053 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.058 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.059 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.060 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.060 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.061 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.062 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.063 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.064 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.065 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.065 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.068 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:32:02.094 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.095 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.096 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.096 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.134 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.134 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.134 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.135 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.137 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.139 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.141 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:32:02.142 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.146 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.157 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:02.162 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:02.166 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.166 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.166 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.166 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:32:02.167 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.167 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:32:02.168 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:02.170 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:32:02.173 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:32:02.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:32:02.265 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:32:02.292 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:32:02.314 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:32:02.320 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.293 seconds (JVM running for 7.876)
+2017-12-04 16:32:06.891 [http-nio-8888-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:32:06.891 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:32:06.942 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:33:02.814 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 9424 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:33:02.816 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:33:02.861 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75d3a5e0: startup date [Mon Dec 04 16:33:02 CST 2017]; root of context hierarchy
+2017-12-04 16:33:03.066 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:33:04.213 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:33:04.722 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52032539] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:33:05.612 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:33:05.625 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:33:05.626 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:33:05.900 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:33:05.900 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3039 ms
+2017-12-04 16:33:06.461 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:33:06.466 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:33:06.467 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:33:06.467 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:33:06.467 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:33:07.560 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:33:07.567 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:33:07.567 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:33:07.568 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:33:07.569 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2017-12-04 16:33:07.572 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:33:07.573 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:33:07.573 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:33:07.577 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:33:07.577 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:33:08.216 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@75d3a5e0: startup date [Mon Dec 04 16:33:02 CST 2017]; root of context hierarchy
+2017-12-04 16:33:08.294 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:33:08.294 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:33:08.319 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:33:08.351 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:33:08.971 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:33:08.973 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:33:08.973 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:33:08.982 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:33:08.986 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:33:08.994 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:33:09.147 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2017-12-04 16:33:09.155 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:33:09.159 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.162 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='hello-controller', position=0, controller=com.my.controller.HelloController}]] 
+2017-12-04 16:33:09.164 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:33:09.164 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test1 belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:33:09.164 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.164 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:33:09.165 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.165 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Request mapping: users belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.my.controller.UserController}]] 
+2017-12-04 16:33:09.169 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/hello-controller Description: hello-controller Position: 0
+2017-12-04 16:33:09.172 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2017-12-04 16:33:09.197 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 16:33:09.198 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2017-12-04 16:33:09.211 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2017-12-04 16:33:09.212 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2017-12-04 16:33:09.223 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.223 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /.com.my.controller.HelloController.test.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.238 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.243 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.248 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.249 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.250 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.251 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.253 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.253 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.254 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.254 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.255 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.256 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.256 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.257 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.258 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.258 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test was hello-controller
+2017-12-04 16:33:09.287 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.288 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.289 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.289 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.324 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.325 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.326 [main] INFO  s.d.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.326 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.327 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.327 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /get_user.com.my.controller.UserController.test1.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.328 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:33:09.328 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method test1 was user-controller
+2017-12-04 16:33:09.332 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.332 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.332 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.333 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.334 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.335 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userById.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.347 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.354 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.360 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.360 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.360 [main] INFO  s.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.361 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.my.common.CommonJsonResult(true)
+2017-12-04 16:33:09.361 [main] INFO  s.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.361 [main] INFO  s.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /users.com.my.controller.UserController.users.DefaultGenericTypeNamingStrategy
+2017-12-04 16:33:09.362 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.363 [main] INFO  s.d.s.web.ClassOrApiAnnotationResourceGrouping - Group for method users was user-controller
+2017-12-04 16:33:09.364 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:33:09.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:33:09.404 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:33:09.445 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:33:09.490 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:33:09.499 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.232 seconds (JVM running for 8.333)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:35:01.827 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 15740 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:35:01.829 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:35:01.887 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:35:01 CST 2017]; root of context hierarchy
+2017-12-04 16:35:02.102 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:35:03.760 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:35:04.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$caec3a28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:35:05.355 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:35:05.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:35:05.374 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:35:05.540 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:35:05.540 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3653 ms
+2017-12-04 16:35:05.853 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:35:05.859 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:35:05.860 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:35:05.860 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:35:05.860 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:35:06.963 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:35:06.971 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:35:06.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:35:06.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:35:06.977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:35:06.978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:35:06.979 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:35:06.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:35:06.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:35:07.318 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:35:07.738 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:35:01 CST 2017]; root of context hierarchy
+2017-12-04 16:35:07.817 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:35:07.817 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:35:07.842 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:35:07.878 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:35:08.416 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:35:08.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:35:08.419 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:35:08.427 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:35:08.429 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:35:08.433 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:35:08.433 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:35:08.454 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:35:08.496 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:35:08.816 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:35:08.837 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:35:08.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:35:08.862 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:35:08.883 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:35:08.889 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.626 seconds (JVM running for 8.242)
+2017-12-04 16:35:24.914 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/sbd] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:35:24.914 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:35:24.963 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:51:14.688 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 18080 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:51:14.691 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:51:14.751 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:51:14 CST 2017]; root of context hierarchy
+2017-12-04 16:51:15.028 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:51:16.632 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:51:17.378 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad209441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:51:18.463 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:51:18.474 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:51:18.475 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:51:18.604 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:51:18.605 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3854 ms
+2017-12-04 16:51:18.906 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:51:18.912 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:51:18.912 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:51:18.913 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:51:18.913 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:51:19.951 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:51:19.956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:51:19.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:51:19.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:51:19.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:51:19.962 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:51:19.962 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:51:19.965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:51:19.966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:51:20.304 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:51:20.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:51:14 CST 2017]; root of context hierarchy
+2017-12-04 16:51:20.801 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:51:20.802 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:51:20.829 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:51:20.862 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:51:21.381 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:51:21.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:51:21.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:51:21.389 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:51:21.391 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:51:21.396 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:51:21.397 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:51:21.420 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:51:21.471 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:51:21.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:51:21.818 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:51:21.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:51:21.847 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:51:21.871 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:51:21.878 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.684 seconds (JVM running for 8.274)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:53:02.202 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 6100 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:53:02.205 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:53:02.264 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 16:53:02 CST 2017]; root of context hierarchy
+2017-12-04 16:53:02.501 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:53:03.676 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:53:04.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc221691] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:53:05.274 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:53:05.286 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:53:05.287 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:53:05.413 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:53:05.413 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3150 ms
+2017-12-04 16:53:05.689 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:53:05.695 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:53:05.695 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:53:05.695 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:53:05.696 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:53:06.890 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:53:06.898 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:53:06.899 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:53:06.899 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:53:06.905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:53:06.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:53:06.907 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:53:06.909 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:53:06.910 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:53:07.223 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:53:07.631 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 16:53:02 CST 2017]; root of context hierarchy
+2017-12-04 16:53:07.705 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:07.705 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:07.728 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:53:07.761 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:08.294 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:53:08.296 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:53:08.296 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:53:08.303 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:53:08.306 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:53:08.309 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:53:08.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:53:08.331 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:53:08.372 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:53:08.682 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:53:08.703 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:53:08.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:53:08.730 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:53:08.753 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:53:08.757 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.026 seconds (JVM running for 7.609)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:53:30.198 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 11192 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:53:30.204 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:53:30.262 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:53:30 CST 2017]; root of context hierarchy
+2017-12-04 16:53:30.519 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:53:31.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:53:32.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee099308] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:53:33.317 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:53:33.328 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:53:33.329 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:53:33.451 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:53:33.451 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3189 ms
+2017-12-04 16:53:33.742 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:53:33.749 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:53:33.750 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:53:33.750 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:53:33.750 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:53:34.897 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:53:34.901 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:53:34.904 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:53:34.904 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:53:34.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:53:34.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:53:34.912 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:53:34.915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:53:34.915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:53:35.223 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:53:35.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:53:30 CST 2017]; root of context hierarchy
+2017-12-04 16:53:35.760 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:35.760 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:35.784 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:53:35.833 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:53:36.394 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:53:36.396 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:53:36.396 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:53:36.403 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:53:36.405 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:53:36.410 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:53:36.411 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:53:36.428 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:53:36.473 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:53:36.797 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:53:36.821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:53:36.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:53:36.861 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:53:36.881 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:53:36.887 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.45 seconds (JVM running for 8.126)
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:54:04.269 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 16928 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:54:04.271 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:54:04.325 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cf6d1be: startup date [Mon Dec 04 16:54:04 CST 2017]; root of context hierarchy
+2017-12-04 16:54:04.542 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:54:05.666 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:54:06.147 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e55a2106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:54:07.087 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:54:07.099 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:54:07.100 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:54:07.224 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:54:07.224 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2899 ms
+2017-12-04 16:54:07.510 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:54:07.515 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:54:07.517 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:54:07.517 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:54:07.518 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:54:08.565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:54:08.570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:54:08.570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:54:08.570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:54:08.576 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:54:08.577 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:54:08.578 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:54:08.581 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:54:08.581 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:54:08.903 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:54:09.330 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cf6d1be: startup date [Mon Dec 04 16:54:04 CST 2017]; root of context hierarchy
+2017-12-04 16:54:09.397 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:54:09.397 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:54:09.421 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:54:09.451 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:54:09.958 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:54:09.959 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:54:09.960 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:54:09.969 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:54:09.971 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:54:09.975 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:54:09.976 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:54:09.998 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:54:10.040 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:54:10.378 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:54:10.405 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:54:10.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:54:10.447 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:54:10.476 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:54:10.486 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.706 seconds (JVM running for 7.302)
+2017-12-04 16:55:18.223 [http-nio-8888-exec-8] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:55:18.223 [http-nio-8888-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:55:18.278 [http-nio-8888-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:56:45.028 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 15744 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:56:45.032 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:56:45.087 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:56:45 CST 2017]; root of context hierarchy
+2017-12-04 16:56:45.295 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:56:46.426 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:56:47.095 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd445d31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:56:48.072 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:56:48.084 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:56:48.085 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:56:48.214 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:56:48.214 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3127 ms
+2017-12-04 16:56:48.525 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:56:48.530 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:56:48.532 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:56:48.533 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:56:48.533 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:56:49.568 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:56:49.573 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:56:49.573 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:56:49.575 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:56:49.581 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:56:49.581 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:56:49.582 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:56:49.585 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:56:49.586 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:56:49.922 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:56:50.339 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47caedad: startup date [Mon Dec 04 16:56:45 CST 2017]; root of context hierarchy
+2017-12-04 16:56:50.416 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:56:50.416 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:56:50.442 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:56:50.474 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:56:50.994 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:56:50.995 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:56:50.997 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:56:51.005 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:56:51.008 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:56:51.011 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:56:51.013 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:56:51.033 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:56:51.076 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:56:51.370 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:56:51.395 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:56:51.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:56:51.424 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:56:51.441 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:56:51.446 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.877 seconds (JVM running for 7.472)
+2017-12-04 16:57:03.409 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:57:03.410 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:57:03.457 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 16:57:58.856 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 2072 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 16:57:58.860 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 16:57:58.911 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:57:58 CST 2017]; root of context hierarchy
+2017-12-04 16:57:59.097 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 16:58:00.194 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 16:58:00.696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39c45996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 16:58:01.651 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 16:58:01.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 16:58:01.663 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 16:58:01.789 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 16:58:01.790 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2879 ms
+2017-12-04 16:58:02.099 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 16:58:02.106 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 16:58:02.107 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 16:58:02.107 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 16:58:02.107 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 16:58:03.133 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 16:58:03.136 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 16:58:03.140 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 16:58:03.140 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 16:58:03.144 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 16:58:03.145 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 16:58:03.145 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 16:58:03.148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 16:58:03.148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 16:58:03.468 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 16:58:03.902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Mon Dec 04 16:57:58 CST 2017]; root of context hierarchy
+2017-12-04 16:58:03.974 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:58:03.974 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:58:03.999 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 16:58:04.028 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 16:58:04.547 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 16:58:04.549 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 16:58:04.549 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 16:58:04.556 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 16:58:04.559 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 16:58:04.561 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 16:58:04.562 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 16:58:04.581 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 16:58:04.620 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 16:58:04.910 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 16:58:04.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:58:04.938 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 16:58:04.956 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 16:58:04.975 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 16:58:04.980 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.567 seconds (JVM running for 7.156)
+2017-12-04 16:58:14.274 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 16:58:14.274 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 16:58:14.320 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2017-12-04 16:58:25.242 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - http://localhost:8888/wt/userById?id=45&
+2017-12-04 16:58:25.685 [http-nio-8888-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-04 16:58:25.880 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - 耗时: 638毫秒
+2017-12-04 16:58:25.975 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1","user":{"id":45,"mobile":"13001042261","name":"王俊龙"}},"resultList":[]}
+2017-12-04 16:58:38.844 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - http://localhost:8888/wt/users?
+2017-12-04 16:58:38.884 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - 耗时: 40毫秒
+2017-12-04 16:58:38.885 [http-nio-8888-exec-1] INFO  com.my.config.WebLogAspect - RESPONSE : {"infoMap":{"reason":"successes","flag":"1"},"resultList":[{"id":1,"mobile":"13147119605","name":"测试用户"},{"id":5,"mobile":"13810315896","name":"吴可峥"},{"id":6,"mobile":"15861684221","name":"马梦云"},{"id":7,"mobile":"13817335978","name":"陈勇安"},{"id":8,"mobile":"18800582663","name":"徐志钢"},{"id":9,"mobile":"13764915407","name":"陈丽萍"},{"id":13,"mobile":"13681468168","name":"刘佳"},{"id":14,"mobile":"13671918809","name":"狄怡雯"},{"id":19,"mobile":"13862142750","name":"顾士君"},{"id":20,"mobile":"13606216246","name":"顾梅娟"},{"id":21,"mobile":"13811738925","name":"李博"},{"id":23,"mobile":"13818105740","name":"杨晓静"},{"id":25,"mobile":"18910540579","name":"黄小静"},{"id":26,"mobile":"18612320083","name":"孙敏"},{"id":27,"mobile":"15210306774","name":"姬晴"},{"id":28,"mobile":"13001000491","name":"李小平"},{"id":29,"mobile":"13001000926","name":"周晓林"},{"id":30,"mobile":"13001003126","name":"王利敏"},{"id":31,"mobile":"13001006352","name":"梁巨勇"},{"id":32,"mobile":"13001007743","name":"尚金光"},{"id":33,"mobile":"13001009683","name":"张桥"},{"id":34,"mobile":"13001012730","name":"肖长青"},{"id":35,"mobile":"13001018030","name":"王爽"},{"id":36,"mobile":"13001018260","name":"聂嫔"},{"id":37,"mobile":"13001021268","name":"张士关"},{"id":38,"mobile":"13001022534","name":"倪修春"},{"id":39,"mobile":"13001026413","name":"蒋健"},{"id":40,"mobile":"13001026983","name":"孙凤玲"},{"id":41,"mobile":"13001033388","name":"吴晓宇"},{"id":42,"mobile":"13001034701","name":"杨海玲"},{"id":43,"mobile":"13001034956","name":"李华"},{"id":44,"mobile":"13001041636","name":"老庄"},{"id":45,"mobile":"13001042261","name":"王俊龙"},{"id":46,"mobile":"13001049978","name":"常巧凤"},{"id":47,"mobile":"13001063555","name":"高永涛"},{"id":48,"mobile":"13001069371","name":"史晓霞"},{"id":49,"mobile":"13001071328","name":"肖进英"},{"id":50,"mobile":"13001071779","name":"梦瑶"},{"id":51,"mobile":"13001072757","name":"周静"},{"id":52,"mobile":"13001073371","name":"董瀚"},{"id":53,"mobile":"13001077790","name":"尤天翔"},{"id":54,"mobile":"13001078359","name":"王朝晖"},{"id":55,"mobile":"13001079855","name":"曹三军"},{"id":56,"mobile":"13001083682","name":"韩宇"},{"id":57,"mobile":"13001084289","name":"张先生"},{"id":58,"mobile":"13001084695","name":"刘进"},{"id":59,"mobile":"13001085979","name":"郝炳联"},{"id":60,"mobile":"13001087112","name":"高尚"},{"id":61,"mobile":"13001088485","name":"丁同南"},{"id":62,"mobile":"13001088676","name":"宋秀凤"},{"id":63,"mobile":"13001089075","name":"唐秋华"},{"id":64,"mobile":"13001092122","name":"卢朋飞"},{"id":65,"mobile":"13001093807","name":"董建影"},{"id":66,"mobile":"13001095304","name":"李晖"},{"id":67,"mobile":"13001096680","name":"闫月清"},{"id":68,"mobile":"13001096916","name":"孔军"},{"id":69,"mobile":"13001096960","name":"程虎军"},{"id":70,"mobile":"13001098626","name":"申女士"},{"id":71,"mobile":"13001098788","name":"赵伟鹏"},{"id":72,"mobile":"13001099316","name":"胡玉梅"},{"id":73,"mobile":"13001109557","name":"胡珊"},{"id":74,"mobile":"13001109799","name":"赵建东"},{"id":75,"mobile":"13001115777","name":"张静"},{"id":76,"mobile":"13001120965","name":"皮秀玮"},{"id":77,"mobile":"13001126395","name":"刘娟"},{"id":78,"mobile":"13001126502","name":"陈玉秀"},{"id":79,"mobile":"13001131729","name":"马迎春"},{"id":80,"mobile":"13001136191","name":"张凡"},{"id":81,"mobile":"13001136699","name":"杨军"},{"id":82,"mobile":"13001137568","name":"杨慧玲"},{"id":83,"mobile":"13001143258","name":"刘杉杉"},{"id":84,"mobile":"13001145001","name":"王双双"},{"id":85,"mobile":"13001149878","name":"李清元"},{"id":86,"mobile":"13001151766","name":"曹佳"},{"id":87,"mobile":"13001152580","name":"李敬敬"},{"id":88,"mobile":"13001154822","name":"林文溢"},{"id":89,"mobile":"13001156893","name":"王可娟"},{"id":90,"mobile":"13001157299","name":"刘平奇"},{"id":91,"mobile":"13001162330","name":"冯勇"},{"id":92,"mobile":"13001165557","name":"刘建平"},{"id":93,"mobile":"13001167269","name":"董孝"},{"id":94,"mobile":"13001167898","name":"张志娟"},{"id":95,"mobile":"13001169880","name":"潘安帝"},{"id":96,"mobile":"13001170929","name":"于晓艳"},{"id":97,"mobile":"13001177624","name":"陈蓓"},{"id":98,"mobile":"13001179479","name":"李翔"},{"id":99,"mobile":"13001181227","name":"王晓军"},{"id":100,"mobile":"13001182204","name":"平雅云"},{"id":101,"mobile":"13001185078","name":"殷志萍"},{"id":102,"mobile":"13001185272","name":"于金焕"},{"id":103,"mobile":"13001185575","name":"徐新平"},{"id":104,"mobile":"13001185807","name":"杨波"},{"id":105,"mobile":"13001186595","name":"刘辉"},{"id":106,"mobile":"13001186900","name":"梁轶"},{"id":107,"mobile":"13001187436","name":"王淳"},{"id":108,"mobile":"13001189515","name":"冷雅群"},{"id":109,"mobile":"13001192151","name":"老庄"},{"id":110,"mobile":"13001195381","name":"顾月华"},{"id":111,"mobile":"13001196681","name":"杨超"},{"id":112,"mobile":"13001196730","name":"徐三强"}]}
+2017-12-04 16:59:14.633 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - http://localhost:8888/wt/?
+2017-12-04 16:59:14.635 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - 耗时: 2毫秒
+2017-12-04 16:59:14.636 [http-nio-8888-exec-2] INFO  com.my.config.WebLogAspect - RESPONSE : "hello,springbootdemo!"
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 17:00:09.085 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 2440 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 17:00:09.087 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 17:00:09.143 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 17:00:09 CST 2017]; root of context hierarchy
+2017-12-04 17:00:09.438 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 17:00:10.539 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 17:00:11.035 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0856752] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 17:00:12.016 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 17:00:12.027 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 17:00:12.030 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 17:00:12.151 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 17:00:12.152 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3010 ms
+2017-12-04 17:00:12.489 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 17:00:12.494 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 17:00:12.495 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 17:00:12.496 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 17:00:12.496 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 17:00:13.570 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 17:00:13.573 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 17:00:13.575 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 17:00:13.576 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 17:00:13.580 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 17:00:13.581 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 17:00:13.582 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 17:00:13.585 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 17:00:13.585 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 17:00:13.897 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 17:00:14.308 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 17:00:09 CST 2017]; root of context hierarchy
+2017-12-04 17:00:14.382 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:00:14.382 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:00:14.404 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 17:00:14.435 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:00:14.942 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 17:00:14.945 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 17:00:14.945 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 17:00:14.954 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 17:00:14.957 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 17:00:14.959 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 17:00:14.960 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 17:00:14.977 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 17:00:15.017 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 17:00:15.281 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 17:00:15.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 17:00:15.316 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 17:00:15.331 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 17:00:15.349 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 17:00:15.355 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 6.717 seconds (JVM running for 7.284)
+2017-12-04 17:00:19.904 [http-nio-8888-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 17:00:19.904 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 17:00:19.955 [http-nio-8888-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+#logback.classic pattern: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+2017-12-04 17:01:30.097 [main] INFO  com.my.SpringbootdemoApplication - Starting SpringbootdemoApplication on wt with PID 16988 (E:\study\springboot\springbootdemo\target\classes started by admin in E:\study\springboot\springbootdemo)
+2017-12-04 17:01:30.100 [main] INFO  com.my.SpringbootdemoApplication - The following profiles are active: dev
+2017-12-04 17:01:30.150 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 17:01:30 CST 2017]; root of context hierarchy
+2017-12-04 17:01:30.338 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2017-12-04 17:01:31.666 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2017-12-04 17:01:32.453 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b183531] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-04 17:01:33.376 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8888 (http)
+2017-12-04 17:01:33.385 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-04 17:01:33.386 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-04 17:01:33.502 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring embedded WebApplicationContext
+2017-12-04 17:01:33.502 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3352 ms
+2017-12-04 17:01:33.786 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-04 17:01:33.790 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-04 17:01:33.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-04 17:01:33.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-04 17:01:33.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-04 17:01:34.943 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.my.controller.HelloController.test()
+2017-12-04 17:01:34.947 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userById],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users(java.lang.Integer)
+2017-12-04 17:01:34.948 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/users],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.users()
+2017-12-04 17:01:34.948 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/get_user],methods=[GET]}" onto public com.my.common.CommonJsonResult com.my.controller.UserController.test1()
+2017-12-04 17:01:34.955 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-12-04 17:01:34.956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-12-04 17:01:34.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-12-04 17:01:34.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-04 17:01:34.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-04 17:01:35.340 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-12-04 17:01:35.784 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7139992f: startup date [Mon Dec 04 17:01:30 CST 2017]; root of context hierarchy
+2017-12-04 17:01:35.867 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:01:35.868 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:01:35.897 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandle
+2017-12-04 17:01:35.929 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-04 17:01:36.440 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-04 17:01:36.441 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'betaDataSource' has been autodetected for JMX exposure
+2017-12-04 17:01:36.441 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'hxjbAppDataSource' has been autodetected for JMX exposure
+2017-12-04 17:01:36.448 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'hxjbAppDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=hxjbAppDataSource,type=DruidDataSource]
+2017-12-04 17:01:36.452 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'betaDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=betaDataSource,type=DruidDataSource]
+2017-12-04 17:01:36.455 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-12-04 17:01:36.456 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2017-12-04 17:01:36.475 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2017-12-04 17:01:36.512 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2017-12-04 17:01:36.776 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: usersUsingGET_1
+2017-12-04 17:01:36.798 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2017-12-04 17:01:36.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2017-12-04 17:01:36.821 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-04 17:01:36.841 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8888 (http)
+2017-12-04 17:01:36.847 [main] INFO  com.my.SpringbootdemoApplication - Started SpringbootdemoApplication in 7.184 seconds (JVM running for 7.732)
+2017-12-04 17:01:46.625 [http-nio-8888-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/wt] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-04 17:01:46.625 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-04 17:01:46.674 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2017-12-04 17:01:57.165 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - http://localhost:8888/wt/?
+2017-12-04 17:01:57.167 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - 耗时: 3毫秒
+2017-12-04 17:01:57.210 [http-nio-8888-exec-8] INFO  com.my.config.WebLogAspect - RESPONSE : "hello,springbootdemo!"
