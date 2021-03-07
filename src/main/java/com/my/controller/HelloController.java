@@ -15,6 +15,7 @@ public class HelloController {
     @GetMapping("/")
     @ApiOperation(value = "连接测试")
     public String test() {
-        return "hello,springbootdemo!";
+//        return "hello,springbootdemo!ld-wt";
+        return "hello,springbootdemo!ld";
     }
 }

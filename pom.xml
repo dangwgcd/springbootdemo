@@ -99,6 +99,13 @@
 			<version>${spring-boot-starter-redis-version}</version>
 		</dependency>
 
+		<!--springboot热部署 方式1-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -108,6 +115,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--springboot热部署 方式2-->
+				<!--<dependencies>-->
+					<!--<dependency>-->
+						<!--<groupId>org.springframework</groupId>-->
+						<!--<artifactId>springloaded</artifactId>-->
+						<!--<version>1.2.0.RELEASE</version>-->
+					<!--</dependency>-->
+				<!--</dependencies>-->
 			</plugin>
 
 			<!--打包时跳过测试-->
