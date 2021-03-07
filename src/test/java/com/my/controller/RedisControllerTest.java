@@ -36,4 +36,16 @@ public class RedisControllerTest {
         mvc.perform(requestBuilder);
     }
 
+    @Test
+    public void setObjV() throws Exception {
+        MockHttpServletRequestBuilder requestBuilder = post("/setObjV/");
+        mvc.perform(requestBuilder);
+    }
+
+    @Test
+    public void getObjV() throws Exception {
+        MockHttpServletRequestBuilder requestBuilder = get("/getObjV/");
+        mvc.perform(requestBuilder);
+    }
+
 }
