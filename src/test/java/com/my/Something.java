@@ -16,4 +16,10 @@ public class Something {
         String s = JSON.toJSONString(obj);
         System.out.println(s);
     }
+    @Test
+    public void test2() {
+        Object obj = null;
+        String s = JSON.toJSONString(obj);
+        System.out.println(s);
+    }
 }

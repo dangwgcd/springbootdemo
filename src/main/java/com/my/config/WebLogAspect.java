@@ -47,7 +47,7 @@ public class WebLogAspect {
             sb.append(obj).append("=").append(request.getParameter(obj.toString())).append("&");
         }
 
-        logger.info(request.getRequestURL().toString() + "?" + sb.toString());
+        logger.info(String.valueOf(request.getRequestURL()) + "?" + String.valueOf(sb));
     }
 
     @AfterReturning(returning = "ret", pointcut = "webLog()")
