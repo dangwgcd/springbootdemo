@@ -26,7 +26,7 @@ public class Runner implements CommandLineRunner {
         System.out.println("Sending message.............................");
         rabbitTemplate.convertAndSend(MqConfig.queueName, "Hello from RabbitMQ!!!!!!!!!!!!!!!!!!!!!!!!!!");
         receiver.getLatch().await(10000, TimeUnit.MILLISECONDS);
-        context.close();
+//        context.close();
     }
 
 }
