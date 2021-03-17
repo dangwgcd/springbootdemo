@@ -16,7 +16,7 @@ import java.util.Date;
 
 @Component
 @Configurable
-@EnableScheduling//标注启动定时任务
+//@EnableScheduling//标注启动定时任务
 @Configuration
 public class SchedulerTasks {
     private static final Logger LOGGER = LoggerFactory.getLogger(SchedulerTasks.class);

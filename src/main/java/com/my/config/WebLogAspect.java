@@ -26,7 +26,7 @@ public class WebLogAspect {
 
     ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-    @Pointcut("execution(public * com.my.controller.*.*(..))")
+    @Pointcut("execution(public * com.my.controller..*.*(..))")//com.my.controller包下以及所有子包
     public void webLog() {
 
     }
