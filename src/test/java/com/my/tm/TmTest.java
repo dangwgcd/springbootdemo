@@ -1,6 +1,6 @@
 package com.my.tm;
 
-import com.my.config.BaseDao;
+import com.my.common.BaseDao;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

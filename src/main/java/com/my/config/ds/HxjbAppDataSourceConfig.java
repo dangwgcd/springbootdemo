@@ -1,7 +1,7 @@
 package com.my.config.ds;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.my.config.BaseDao;
+import com.my.common.BaseDao;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.boot.autoconfigure.MybatisProperties;

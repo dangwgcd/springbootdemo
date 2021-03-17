@@ -590,9 +590,9 @@ org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis
 ### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
 ### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
 	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
-	at com.my.config.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:203)
+	at com.my.common.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:203)
 	at com.sun.proxy.$Proxy70.selectList(Unknown Source)
-	at com.my.config.BaseDao.selectList(BaseDao.java:81)
+	at com.my.common.BaseDao.selectList(BaseDao.java:81)
 	at com.my.service.impl.UserServiceImpl.getUsers(UserServiceImpl.java:24)
 	at com.my.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$cf8d23ea.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
@@ -682,7 +682,7 @@ Caused by: org.apache.ibatis.exceptions.PersistenceException:
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.my.config.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:194)
+	at com.my.common.BaseDao$SqlSessionInterceptor.invoke(BaseDao.java:194)
 	... 80 common frames omitted
 Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for UserMapper.getUsers
 	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)

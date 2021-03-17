@@ -1,7 +1,5 @@
-package com.my.config;
+package com.my.common;
 
-import com.my.common.PageList;
-import com.my.common.PageUtil;
 import org.apache.ibatis.exceptions.PersistenceException;
 import org.apache.ibatis.executor.BatchResult;
 import org.apache.ibatis.reflection.ExceptionUtil;

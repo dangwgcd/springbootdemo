@@ -1,6 +1,6 @@
 package com.my.service.impl;
 
-import com.my.config.BaseDao;
+import com.my.common.BaseDao;
 import com.my.entity.User;
 import com.my.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
