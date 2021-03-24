@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="TmMapper">
+    <select id="selectUserIdsFromBeta" resultType="Integer">
+        select DISTINCT t1.user_id
+
+		from hxjb_telemarketing_sys.tm_task_user t1
+		INNER JOIN hxjb_user.hxjb_user hu ON t1.user_id = hu.id
+		left join hxjb_telemarketing_sys.tm_task_user_desire t2 on t1.id = t2.task_user_id AND t2.del_flag = 1
+		left join hxjb_telemarketing_sys.tm_task t3 on t1.task_id = t3.id AND t3.del_flag = 1
+		left join hxjb_telemarketing_sys.tm_task_user_voice t4 on t4.task_user_id = t1.id and t4.task_id = t3.id AND t4.del_flag = 1
+		where  t1.del_flag = 1 AND t1.user_id > 0
+    </select>
+
+    <select id="selectUserIdsFromTmp" resultType="Integer">
+        SELECT DISTINCT tau.user_id from tm_abbreviation_user tau
+    </select>
+</mapper>

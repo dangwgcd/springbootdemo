@@ -15,6 +15,7 @@
     </typeAliases>
     <mappers>
         <mapper resource="mybatis/UserMapper.xml"/>
+        <mapper resource="mybatis/TmMapper.xml"/>
     </mappers>
 
 </configuration>
