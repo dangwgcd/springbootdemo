@@ -3,6 +3,7 @@ package com.my;
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import com.my.common.CommonJsonResult;
+import net.sourceforge.pinyin4j.PinyinHelper;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
 import org.joda.time.LocalDate;
@@ -86,6 +87,13 @@ public class Something {
         System.out.println(days);
 
         new DateTime().isAfterNow();
+
+    }
+
+    @Test
+    public void test8() throws ParseException {
+        String[] strings = PinyinHelper.toHanyuPinyinStringArray('王');
+        System.out.println(strings);
 
     }
 
